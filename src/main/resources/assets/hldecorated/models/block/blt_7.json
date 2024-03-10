@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/circular_blue_terracotta",
+    "up": "hldecorated:blocks/circular_blue_terracotta",
+    "north": "hldecorated:blocks/circular_blue_terracotta",
+    "east": "hldecorated:blocks/circular_blue_terracotta",
+    "south": "hldecorated:blocks/circular_blue_terracotta",
+    "west": "hldecorated:blocks/circular_blue_terracotta",
+    "particle": "hldecorated:blocks/circular_blue_terracotta"
+  }
+}

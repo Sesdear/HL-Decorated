@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/shifted_bamboo_planks",
+    "up": "hldecorated:blocks/shifted_bamboo_planks",
+    "north": "hldecorated:blocks/shifted_bamboo_planks",
+    "east": "hldecorated:blocks/shifted_bamboo_planks",
+    "south": "hldecorated:blocks/shifted_bamboo_planks",
+    "west": "hldecorated:blocks/shifted_bamboo_planks",
+    "particle": "hldecorated:blocks/shifted_bamboo_planks"
+  }
+}

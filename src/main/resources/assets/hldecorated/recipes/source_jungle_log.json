@@ -1,0 +1,17 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:log",
+      "data": 3
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "hldecorated:jungle_log_main",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "up": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "north": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "east": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "south": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "west": "hldecorated:blocks/curly_amethyst_block_pillar",
+    "particle": "hldecorated:blocks/curly_amethyst_block_pillar"
+  }
+}

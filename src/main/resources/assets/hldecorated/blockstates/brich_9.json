@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:brich_9"
+    },
+    "facing=south": {
+      "model": "hldecorated:brich_9"
+    },
+    "facing=north": {
+      "model": "hldecorated:brich_9"
+    },
+    "facing=east": {
+      "model": "hldecorated:brich_9",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hldecorated:brich_9",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hldecorated:brich_9",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hldecorated:brich_9",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

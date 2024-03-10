@@ -1,0 +1,8 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "bottom": "hldecorated:blocks/tiny_layered_andesite_slabs",
+    "top": "hldecorated:blocks/tiny_layered_andesite_slabs",
+    "side": "hldecorated:blocks/tiny_layered_andesite_slabs"
+  }
+}

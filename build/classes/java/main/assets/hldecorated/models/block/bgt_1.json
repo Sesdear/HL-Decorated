@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/black_glazed_terracotta_pillar_top",
+    "up": "hldecorated:blocks/black_glazed_terracotta_pillar_top",
+    "north": "hldecorated:blocks/black_glazed_terracotta_pillar_sides",
+    "east": "hldecorated:blocks/black_glazed_terracotta_pillar_sides",
+    "south": "hldecorated:blocks/black_glazed_terracotta_pillar_sides",
+    "west": "hldecorated:blocks/black_glazed_terracotta_pillar_sides",
+    "particle": "hldecorated:blocks/black_glazed_terracotta_pillar_top"
+  }
+}

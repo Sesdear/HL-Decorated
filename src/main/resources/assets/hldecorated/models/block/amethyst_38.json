@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "up": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "north": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "east": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "south": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "west": "hldecorated:blocks/prismal_amethyst_block_remnants",
+    "particle": "hldecorated:blocks/prismal_amethyst_block_remnants"
+  }
+}

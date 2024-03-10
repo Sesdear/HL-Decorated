@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "up": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "north": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "east": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "south": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "west": "hldecorated:blocks/offset_amethyst_block_bricks",
+    "particle": "hldecorated:blocks/offset_amethyst_block_bricks"
+  }
+}

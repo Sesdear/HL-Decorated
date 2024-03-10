@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/rough_amethyst_block",
+    "up": "hldecorated:blocks/rough_amethyst_block",
+    "north": "hldecorated:blocks/rough_amethyst_block",
+    "east": "hldecorated:blocks/rough_amethyst_block",
+    "south": "hldecorated:blocks/rough_amethyst_block",
+    "west": "hldecorated:blocks/rough_amethyst_block",
+    "particle": "hldecorated:blocks/rough_amethyst_block"
+  }
+}

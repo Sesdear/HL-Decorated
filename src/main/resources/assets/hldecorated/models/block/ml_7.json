@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/mixed_mangrove_log_top",
+    "up": "hldecorated:blocks/mixed_mangrove_log_top",
+    "north": "hldecorated:blocks/mixed_mangrove_log",
+    "east": "hldecorated:blocks/mixed_mangrove_log",
+    "south": "hldecorated:blocks/mixed_mangrove_log",
+    "west": "hldecorated:blocks/mixed_mangrove_log",
+    "particle": "hldecorated:blocks/mixed_mangrove_log_top"
+  }
+}

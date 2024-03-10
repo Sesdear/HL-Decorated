@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Deco: Andesite",
+    "icon": {
+      "value": "Blocks.STONE#5"
+    },
+    "showSearch": true
+  }
+}

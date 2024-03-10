@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "hldecorated",
+    "name": "HLDecorated",
+    "description": "Decorated mod By HLNikNiky",
+    "version": "0.0.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "assets/hldecorated/textures/hldecologo.png",
+    "mcversion": "1.12.2",
+    "url": "https://www.youtube.com/channel/UCBeXxUNxezfZMwwEzBSuiFQ",
+    "updateUrl": "",
+    "authorList": [
+      "HLNikNiky"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

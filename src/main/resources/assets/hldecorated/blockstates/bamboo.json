@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=1": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=2": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=3": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=4": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=5": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=6": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=7": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=8": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=9": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=10": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=11": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=12": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=13": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=14": {
+      "model": "hldecorated:bamboo"
+    },
+    "age=15": {
+      "model": "hldecorated:bamboo"
+    }
+  }
+}

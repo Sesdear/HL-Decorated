@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/smooth_inlayed_andesite",
+    "up": "hldecorated:blocks/smooth_inlayed_andesite",
+    "north": "hldecorated:blocks/smooth_inlayed_andesite",
+    "east": "hldecorated:blocks/smooth_inlayed_andesite",
+    "south": "hldecorated:blocks/smooth_inlayed_andesite",
+    "west": "hldecorated:blocks/smooth_inlayed_andesite",
+    "particle": "hldecorated:blocks/smooth_inlayed_andesite"
+  }
+}

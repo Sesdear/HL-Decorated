@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Deco: Terracotta",
+    "icon": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#9"
+    },
+    "showSearch": false
+  }
+}

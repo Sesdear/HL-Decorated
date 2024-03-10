@@ -1,0 +1,36 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "3": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "4": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "6": {
+      "item": "minecraft:fence"
+    },
+    "8": {
+      "item": "minecraft:fence"
+    }
+  },
+  "result": {
+    "item": "hldecorated:logo_log_crafting_table",
+    "count": 1
+  }
+}

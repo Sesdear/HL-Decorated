@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/acacia_planks_shavings",
+    "up": "hldecorated:blocks/acacia_planks_shavings",
+    "north": "hldecorated:blocks/acacia_planks_shavings",
+    "east": "hldecorated:blocks/acacia_planks_shavings",
+    "south": "hldecorated:blocks/acacia_planks_shavings",
+    "west": "hldecorated:blocks/acacia_planks_shavings",
+    "particle": "hldecorated:blocks/acacia_planks_shavings"
+  }
+}

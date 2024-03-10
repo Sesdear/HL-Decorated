@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/center_cut_jungle_log_top",
+    "up": "hldecorated:blocks/center_cut_jungle_log_top",
+    "north": "hldecorated:blocks/center_cut_jungle_log",
+    "east": "hldecorated:blocks/center_cut_jungle_log",
+    "south": "hldecorated:blocks/center_cut_jungle_log",
+    "west": "hldecorated:blocks/center_cut_jungle_log",
+    "particle": "hldecorated:blocks/center_cut_jungle_log_top"
+  }
+}

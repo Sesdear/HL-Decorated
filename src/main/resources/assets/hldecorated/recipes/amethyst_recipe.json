@@ -1,0 +1,21 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 5
+    },
+    "1": {
+      "item": "minecraft:stained_glass",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "hldecorated:amethyst_item",
+    "count": 1
+  }
+}

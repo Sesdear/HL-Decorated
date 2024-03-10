@@ -1,0 +1,834 @@
+[22:00:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:00:12] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[22:00:12] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at D:\MCreato2021_1\jdk\jre
+[22:00:12] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:00:12] [main/ERROR] [FML]: Full: C:\Users\Sergey\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[22:00:12] [main/ERROR] [FML]: Trimmed: c:/users/sergey/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:00:12] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:00:12] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[22:00:12] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[22:00:12] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[22:00:12] [main/INFO] [FML]: Searching C:\Users\Sergey\MCreatorWorkspaces\hldecoblocks\run\.\mods for mods
+[22:00:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:00:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:00:14] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:00:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:00:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:00:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:00:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:00:14] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:00:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player875
+[22:00:18] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[22:00:19] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_275, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), BellSoft
+	Memory: 760309672 bytes (725 MB) / 883425280 bytes (842 MB) up to 4747952128 bytes (4528 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 551.23' Renderer: 'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+[22:00:19] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[22:00:19] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:00:19] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:00:19] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:00:19] [Client thread/INFO] [FML]: Searching C:\Users\Sergey\MCreatorWorkspaces\hldecoblocks\run\.\mods for mods
+[22:00:20] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[22:00:20] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Sergey\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[22:00:20] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Sergey\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[22:00:20] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Sergey\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[22:00:20] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Sergey\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[22:00:20] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[22:00:21] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hldecorated] at CLIENT
+[22:00:21] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hldecorated] at SERVER
+[22:00:21] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 97926900 nanos
+[22:00:21] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HLDecorated
+[22:00:21] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:00:22] [Client thread/INFO] [FML]: Found 1591 ObjectHolder annotations
+[22:00:22] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:00:22] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:00:22] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:00:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:00:22] [Client thread/INFO] [FML]: OBJLoader: Domain hldecorated has been added.
+[22:00:23] [Client thread/INFO] [FML]: Applying holder lookups
+[22:00:23] [Client thread/INFO] [FML]: Holder lookups applied
+[22:00:23] [Client thread/INFO] [FML]: Applying holder lookups
+[22:00:23] [Client thread/INFO] [FML]: Holder lookups applied
+[22:00:23] [Client thread/INFO] [FML]: Applying holder lookups
+[22:00:23] [Client thread/INFO] [FML]: Holder lookups applied
+[22:00:23] [Client thread/INFO] [FML]: Applying holder lookups
+[22:00:23] [Client thread/INFO] [FML]: Holder lookups applied
+[22:00:23] [Client thread/INFO] [FML]: Injecting itemstacks
+[22:00:23] [Client thread/INFO] [FML]: Itemstack injection complete
+[22:00:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[22:00:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[22:00:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:00:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[22:00:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[22:00:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[22:00:32] [Client thread/INFO] [FML]: Max texture size: 16384
+[22:00:36] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[22:00:37] [Client thread/INFO] [FML]: Applying holder lookups
+[22:00:37] [Client thread/INFO] [FML]: Holder lookups applied
+[22:00:37] [Client thread/INFO] [FML]: Injecting itemstacks
+[22:00:37] [Client thread/INFO] [FML]: Itemstack injection complete
+[22:00:37] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[22:00:37] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[22:00:38] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[22:00:44] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[22:00:44] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[22:00:44] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_60
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_61
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_64
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_65
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_62
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_63
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_59
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_50
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_57
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_58
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_55
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_56
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_53
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_54
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_51
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_52
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_48
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_49
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_46
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_47
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_44
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_45
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_42
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_43
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_40
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_41
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_39
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_37
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_38
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_35
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_36
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_33
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_34
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_31
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_32
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_30
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_28
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_29
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_26
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_27
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_24
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_25
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_22
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_23
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamboo_plank_main
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_leave_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamboo
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:original_brich_plank
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bgt_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecorated:pablo
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_block_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_block_main
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bt_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_23
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_24
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_22
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_27
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_28
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_25
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_26
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_22
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_23
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_24
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_25
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_26
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_27
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_28
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_29
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_34
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_log_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_35
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_32
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_33
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_38
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_36
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_37
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_30
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_31
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_29
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_60
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_61
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_62
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_63
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_64
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_33
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_34
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_35
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_36
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_30
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_31
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_32
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_37
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bamb_38
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_40
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_41
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_42
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_43
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_44
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_45
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_46
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_47
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_48
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_38
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_39
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_51
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_52
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_53
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_54
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_55
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_56
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_57
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_58
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_59
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_49
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_22
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_23
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_24
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_25
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_26
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_30
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_31
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_32
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_33
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_34
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_35
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_36
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_37
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_27
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_28
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_29
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_34
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_22
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_23
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_24
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_25
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_26
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_27
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_28
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:ands_60_double
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:amethyst
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_30
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_31
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_32
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_33
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_35
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_36
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_37
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_38
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_29
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:acasia_plank_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_20
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_21
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_19
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_11
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_12
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_13
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_14
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_15
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_16
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_17
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_18
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_2
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_5
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_4
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_3
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:brich_p_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_6
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_7
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_8
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bcon_9
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:b_con_1
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_10
+[22:00:44] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world hldecoblocks:bsg_11
+[22:00:44] [Server thread/INFO] [FML]: Applying holder lookups
+[22:00:44] [Server thread/INFO] [FML]: Holder lookups applied
+[22:00:44] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@16cedeee)
+[22:00:44] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[22:00:45] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@16cedeee)
+[22:00:45] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@16cedeee)
+[22:00:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:00:45] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:00:45] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:00:45] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
+[22:00:46] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[22:00:46] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[22:00:46] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2855,mcp@9.42,hldecorated@0.0.6
+[22:00:46] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[22:00:47] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:00:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player875[local:E:6ca2a643] logged in with entity id 57 at (1004.671446277554, 4.288444894876642, 859.078111570437)
+[22:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player875 joined the game
+[22:00:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:00:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player875: Changing to clear weather]
+[22:00:55] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Changing to clear weather
+[22:01:13] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
+[22:01:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [Debug]: Advanced tooltips: hidden
+[22:01:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Saved screenshot as 2024-03-09_22.01.22.png
+[22:01:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [Debug]: Advanced tooltips: shown
+[22:02:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 13 advancements
+[22:02:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
+[22:02:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 23 advancements
+[22:02:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:02:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:05:17] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:05:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld

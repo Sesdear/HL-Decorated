@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/herringbone_bamboo_planks",
+    "up": "hldecorated:blocks/herringbone_bamboo_planks",
+    "north": "hldecorated:blocks/herringbone_bamboo_planks",
+    "east": "hldecorated:blocks/herringbone_bamboo_planks",
+    "south": "hldecorated:blocks/herringbone_bamboo_planks",
+    "west": "hldecorated:blocks/herringbone_bamboo_planks",
+    "particle": "hldecorated:blocks/herringbone_bamboo_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/bundled_spruce_log_top",
+    "up": "hldecorated:blocks/bundled_spruce_log_top",
+    "north": "hldecorated:blocks/bundled_spruce_log",
+    "east": "hldecorated:blocks/bundled_spruce_log",
+    "south": "hldecorated:blocks/bundled_spruce_log",
+    "west": "hldecorated:blocks/bundled_spruce_log",
+    "particle": "hldecorated:blocks/bundled_spruce_log_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/firewood_mangrove_log_top",
+    "up": "hldecorated:blocks/firewood_mangrove_log_top",
+    "north": "hldecorated:blocks/firewood_mangrove_log",
+    "east": "hldecorated:blocks/firewood_mangrove_log",
+    "south": "hldecorated:blocks/firewood_mangrove_log",
+    "west": "hldecorated:blocks/firewood_mangrove_log",
+    "particle": "hldecorated:blocks/firewood_mangrove_log_top"
+  }
+}

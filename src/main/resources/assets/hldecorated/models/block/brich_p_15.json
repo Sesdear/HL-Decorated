@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/double_herringbone_birch_planks",
+    "up": "hldecorated:blocks/double_herringbone_birch_planks",
+    "north": "hldecorated:blocks/double_herringbone_birch_planks",
+    "east": "hldecorated:blocks/double_herringbone_birch_planks",
+    "south": "hldecorated:blocks/double_herringbone_birch_planks",
+    "west": "hldecorated:blocks/double_herringbone_birch_planks",
+    "particle": "hldecorated:blocks/double_herringbone_birch_planks"
+  }
+}

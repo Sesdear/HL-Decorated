@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hldecorated:blocks/dead_acacia_leaves",
+    "particle": "hldecorated:blocks/dead_acacia_leaves"
+  }
+}

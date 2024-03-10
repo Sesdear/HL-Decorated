@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "up": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "north": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "east": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "south": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "west": "hldecorated:blocks/cross_laced_bamboo_planks",
+    "particle": "hldecorated:blocks/cross_laced_bamboo_planks"
+  }
+}

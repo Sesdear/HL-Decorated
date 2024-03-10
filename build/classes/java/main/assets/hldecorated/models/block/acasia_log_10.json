@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/stripped_acacia_log_top",
+    "up": "hldecorated:blocks/stripped_acacia_log_top",
+    "north": "hldecorated:blocks/stripped_acacia_log",
+    "east": "hldecorated:blocks/stripped_acacia_log",
+    "south": "hldecorated:blocks/stripped_acacia_log",
+    "west": "hldecorated:blocks/stripped_acacia_log",
+    "particle": "hldecorated:blocks/stripped_acacia_log_top"
+  }
+}

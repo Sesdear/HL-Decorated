@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Deco: Concrete",
+    "icon": {
+      "value": "Blocks.CONCRETE#4"
+    },
+    "showSearch": true
+  }
+}

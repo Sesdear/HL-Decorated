@@ -1,0 +1,30 @@
+{
+  "ametyst_walk_snd": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "hldecorated:amethyst_step13",
+        "stream": false
+      }
+    ]
+  },
+  "axe_strip": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "hldecorated:axe_strip3",
+        "stream": false
+      }
+    ]
+  },
+  "pablo": {
+    "category": "block",
+    "subtitle": "subtitles.pablo",
+    "sounds": [
+      {
+        "name": "hldecorated:yt1s_nsjfwnc",
+        "stream": false
+      }
+    ]
+  }
+}

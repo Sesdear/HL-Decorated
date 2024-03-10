@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/versailles_bamboo_planks",
+    "up": "hldecorated:blocks/versailles_bamboo_planks",
+    "north": "hldecorated:blocks/versailles_bamboo_planks",
+    "east": "hldecorated:blocks/versailles_bamboo_planks",
+    "south": "hldecorated:blocks/versailles_bamboo_planks",
+    "west": "hldecorated:blocks/versailles_bamboo_planks",
+    "particle": "hldecorated:blocks/versailles_bamboo_planks"
+  }
+}
