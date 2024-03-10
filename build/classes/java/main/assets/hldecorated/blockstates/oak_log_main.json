@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:oak_log_main"
+    },
+    "facing=south": {
+      "model": "hldecorated:oak_log_main"
+    },
+    "facing=north": {
+      "model": "hldecorated:oak_log_main"
+    },
+    "facing=east": {
+      "model": "hldecorated:oak_log_main",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hldecorated:oak_log_main",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hldecorated:oak_log_main",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hldecorated:oak_log_main",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

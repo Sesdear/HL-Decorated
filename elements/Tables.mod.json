@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Tables",
+    "icon": {
+      "value": "CUSTOM:LogoLogCraftingTable"
+    },
+    "showSearch": false
+  }
+}

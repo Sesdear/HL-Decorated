@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/spider_andesite_carving",
+    "up": "hldecorated:blocks/spider_andesite_carving",
+    "north": "hldecorated:blocks/spider_andesite_carving",
+    "east": "hldecorated:blocks/spider_andesite_carving",
+    "south": "hldecorated:blocks/spider_andesite_carving",
+    "west": "hldecorated:blocks/spider_andesite_carving",
+    "particle": "hldecorated:blocks/spider_andesite_carving"
+  }
+}

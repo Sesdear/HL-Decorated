@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/blue_terracotta_tile",
+    "up": "hldecorated:blocks/blue_terracotta_tile",
+    "north": "hldecorated:blocks/blue_terracotta_tile",
+    "east": "hldecorated:blocks/blue_terracotta_tile",
+    "south": "hldecorated:blocks/blue_terracotta_tile",
+    "west": "hldecorated:blocks/blue_terracotta_tile",
+    "particle": "hldecorated:blocks/blue_terracotta_tile"
+  }
+}

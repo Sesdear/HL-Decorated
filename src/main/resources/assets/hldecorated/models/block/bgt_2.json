@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "up": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "north": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "east": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "south": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "west": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles",
+    "particle": "hldecorated:blocks/black_glazed_terracotta_smooth_tiles"
+  }
+}

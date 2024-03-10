@@ -1,0 +1,7 @@
+{
+  "parent": "hldecorated:custom/bamboo1_age1",
+  "textures": {
+    "all": "hldecorated:blocks/bamboo_stalk",
+    "particle": "hldecorated:blocks/bamboo"
+  }
+}

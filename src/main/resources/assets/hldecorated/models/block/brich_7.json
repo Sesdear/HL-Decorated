@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/mixed_birch_log_top",
+    "up": "hldecorated:blocks/mixed_birch_log_top",
+    "north": "hldecorated:blocks/mixed_birch_log",
+    "east": "hldecorated:blocks/mixed_birch_log",
+    "south": "hldecorated:blocks/mixed_birch_log",
+    "west": "hldecorated:blocks/mixed_birch_log",
+    "particle": "hldecorated:blocks/mixed_birch_log_top"
+  }
+}

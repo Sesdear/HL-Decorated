@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/polished_birch_planks",
+    "up": "hldecorated:blocks/polished_birch_planks",
+    "north": "hldecorated:blocks/polished_birch_planks",
+    "east": "hldecorated:blocks/polished_birch_planks",
+    "south": "hldecorated:blocks/polished_birch_planks",
+    "west": "hldecorated:blocks/polished_birch_planks",
+    "particle": "hldecorated:blocks/polished_birch_planks"
+  }
+}

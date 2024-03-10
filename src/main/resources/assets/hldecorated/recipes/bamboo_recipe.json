@@ -1,0 +1,16 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:reeds"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "hldecorated:bamboo",
+    "count": 2
+  }
+}

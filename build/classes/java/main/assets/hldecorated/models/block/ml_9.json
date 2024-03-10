@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/overgrown_mangrove_log_top",
+    "up": "hldecorated:blocks/overgrown_mangrove_log_top",
+    "north": "hldecorated:blocks/overgrown_mangrove_log",
+    "east": "hldecorated:blocks/overgrown_mangrove_log",
+    "south": "hldecorated:blocks/overgrown_mangrove_log",
+    "west": "hldecorated:blocks/overgrown_mangrove_log",
+    "particle": "hldecorated:blocks/overgrown_mangrove_log_top"
+  }
+}

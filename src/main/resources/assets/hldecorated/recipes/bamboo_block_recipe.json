@@ -1,0 +1,26 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "hldecorated:bamboo"
+    },
+    "1": {
+      "item": "hldecorated:bamboo"
+    },
+    "2": {
+      "item": "hldecorated:bamboo"
+    },
+    "3": {
+      "item": "hldecorated:bamboo"
+    }
+  },
+  "result": {
+    "item": "hldecorated:bamboo_plank_main",
+    "count": 1
+  }
+}

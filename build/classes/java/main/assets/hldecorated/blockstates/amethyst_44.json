@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:amethyst_44"
+    },
+    "facing=south": {
+      "model": "hldecorated:amethyst_44"
+    },
+    "facing=north": {
+      "model": "hldecorated:amethyst_44"
+    },
+    "facing=east": {
+      "model": "hldecorated:amethyst_44",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hldecorated:amethyst_44",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hldecorated:amethyst_44",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hldecorated:amethyst_44",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

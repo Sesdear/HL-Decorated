@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/crated_acacia_planks",
+    "up": "hldecorated:blocks/crated_acacia_planks",
+    "north": "hldecorated:blocks/crated_acacia_planks",
+    "east": "hldecorated:blocks/crated_acacia_planks",
+    "south": "hldecorated:blocks/crated_acacia_planks",
+    "west": "hldecorated:blocks/crated_acacia_planks",
+    "particle": "hldecorated:blocks/crated_acacia_planks"
+  }
+}

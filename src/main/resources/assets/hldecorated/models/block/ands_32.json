@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/massive_andesite_bricks",
+    "up": "hldecorated:blocks/massive_andesite_bricks",
+    "north": "hldecorated:blocks/massive_andesite_bricks",
+    "east": "hldecorated:blocks/massive_andesite_bricks",
+    "south": "hldecorated:blocks/massive_andesite_bricks",
+    "west": "hldecorated:blocks/massive_andesite_bricks",
+    "particle": "hldecorated:blocks/massive_andesite_bricks"
+  }
+}

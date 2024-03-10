@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/rounded_andesite_bricks",
+    "up": "hldecorated:blocks/rounded_andesite_bricks",
+    "north": "hldecorated:blocks/rounded_andesite_bricks",
+    "east": "hldecorated:blocks/rounded_andesite_bricks",
+    "south": "hldecorated:blocks/rounded_andesite_bricks",
+    "west": "hldecorated:blocks/rounded_andesite_bricks",
+    "particle": "hldecorated:blocks/rounded_andesite_bricks"
+  }
+}

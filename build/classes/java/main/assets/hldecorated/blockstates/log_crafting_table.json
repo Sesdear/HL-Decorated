@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:log_crafting_table"
+    },
+    "facing=north": {
+      "model": "hldecorated:log_crafting_table"
+    },
+    "facing=east": {
+      "model": "hldecorated:log_crafting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hldecorated:log_crafting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hldecorated:log_crafting_table",
+      "y": 270
+    }
+  }
+}

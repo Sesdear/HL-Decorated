@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "up": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "north": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "east": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "south": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "west": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks",
+    "particle": "hldecorated:blocks/cracked_disordered_amethyst_block_bricks"
+  }
+}

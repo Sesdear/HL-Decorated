@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "up": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "north": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "east": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "south": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "west": "hldecorated:blocks/hexagonical_black_glazed_terracotta",
+    "particle": "hldecorated:blocks/hexagonical_black_glazed_terracotta"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "hldecorated:ands_60"
+    },
+    "half=top,variant=default": {
+      "model": "hldecorated:ands_60_top"
+    }
+  }
+}

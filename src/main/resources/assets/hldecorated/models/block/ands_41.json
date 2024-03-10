@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/runic_carved_andesite",
+    "up": "hldecorated:blocks/runic_carved_andesite",
+    "north": "hldecorated:blocks/runic_carved_andesite",
+    "east": "hldecorated:blocks/runic_carved_andesite",
+    "south": "hldecorated:blocks/runic_carved_andesite",
+    "west": "hldecorated:blocks/runic_carved_andesite",
+    "particle": "hldecorated:blocks/runic_carved_andesite"
+  }
+}

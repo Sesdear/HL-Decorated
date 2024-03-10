@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:blt_8"
+    },
+    "facing=north": {
+      "model": "hldecorated:blt_8"
+    },
+    "facing=east": {
+      "model": "hldecorated:blt_8",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hldecorated:blt_8",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hldecorated:blt_8",
+      "y": 270
+    }
+  }
+}

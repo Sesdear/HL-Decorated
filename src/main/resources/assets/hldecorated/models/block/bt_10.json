@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/cut_black_terracotta",
+    "up": "hldecorated:blocks/cut_black_terracotta",
+    "north": "hldecorated:blocks/cut_black_terracotta",
+    "east": "hldecorated:blocks/cut_black_terracotta",
+    "south": "hldecorated:blocks/cut_black_terracotta",
+    "west": "hldecorated:blocks/cut_black_terracotta",
+    "particle": "hldecorated:blocks/cut_black_terracotta"
+  }
+}

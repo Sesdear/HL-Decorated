@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/railed_blue_concrete",
+    "up": "hldecorated:blocks/railed_blue_concrete",
+    "north": "hldecorated:blocks/railed_blue_concrete",
+    "east": "hldecorated:blocks/railed_blue_concrete",
+    "south": "hldecorated:blocks/railed_blue_concrete",
+    "west": "hldecorated:blocks/railed_blue_concrete",
+    "particle": "hldecorated:blocks/railed_blue_concrete"
+  }
+}

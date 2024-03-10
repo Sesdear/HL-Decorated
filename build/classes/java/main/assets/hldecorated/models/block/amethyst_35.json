@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "up": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "north": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "east": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "south": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "west": "hldecorated:blocks/overlapping_amethyst_block_tiles",
+    "particle": "hldecorated:blocks/overlapping_amethyst_block_tiles"
+  }
+}

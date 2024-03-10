@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hldecorated:bgt_1"
+    },
+    "facing=south": {
+      "model": "hldecorated:bgt_1"
+    },
+    "facing=north": {
+      "model": "hldecorated:bgt_1"
+    },
+    "facing=east": {
+      "model": "hldecorated:bgt_1",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "hldecorated:bgt_1",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "hldecorated:bgt_1",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "hldecorated:bgt_1",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

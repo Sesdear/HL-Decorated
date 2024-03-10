@@ -1,0 +1,17 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "hldecorated:ml_m",
+    "count": 1
+  }
+}

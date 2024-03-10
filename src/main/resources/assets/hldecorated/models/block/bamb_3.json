@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/bamboo_planks_shavings",
+    "up": "hldecorated:blocks/bamboo_planks_shavings",
+    "north": "hldecorated:blocks/bamboo_planks_shavings",
+    "east": "hldecorated:blocks/bamboo_planks_shavings",
+    "south": "hldecorated:blocks/bamboo_planks_shavings",
+    "west": "hldecorated:blocks/bamboo_planks_shavings",
+    "particle": "hldecorated:blocks/bamboo_planks_shavings"
+  }
+}

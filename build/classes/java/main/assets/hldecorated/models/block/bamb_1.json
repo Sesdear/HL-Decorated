@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "up": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "north": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "east": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "south": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "west": "hldecorated:blocks/bamboo_planks_fine_mosaic",
+    "particle": "hldecorated:blocks/bamboo_planks_fine_mosaic"
+  }
+}

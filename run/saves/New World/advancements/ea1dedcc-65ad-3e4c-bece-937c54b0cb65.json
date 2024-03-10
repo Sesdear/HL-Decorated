@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log2": "2024-03-04 00:05:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-03-04 00:05:03 +0700"
+    },
+    "done": false
+  }
+}

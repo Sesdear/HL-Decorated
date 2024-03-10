@@ -1,0 +1,17 @@
+{
+  "group": "hldecorated",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "hldecorated:oak_log_main",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/mixed_oak_log_top",
+    "up": "hldecorated:blocks/mixed_oak_log_top",
+    "north": "hldecorated:blocks/mixed_oak_log",
+    "east": "hldecorated:blocks/mixed_oak_log",
+    "south": "hldecorated:blocks/mixed_oak_log",
+    "west": "hldecorated:blocks/mixed_oak_log",
+    "particle": "hldecorated:blocks/mixed_oak_log_top"
+  }
+}

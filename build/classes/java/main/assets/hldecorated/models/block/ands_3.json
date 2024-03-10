@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hldecorated:blocks/andesite_pillar_top",
+    "up": "hldecorated:blocks/andesite_pillar_top",
+    "north": "hldecorated:blocks/andesite_pillar",
+    "east": "hldecorated:blocks/andesite_pillar",
+    "south": "hldecorated:blocks/andesite_pillar",
+    "west": "hldecorated:blocks/andesite_pillar",
+    "particle": "hldecorated:blocks/andesite_pillar_top"
+  }
+}

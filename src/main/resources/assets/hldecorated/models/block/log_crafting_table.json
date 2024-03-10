@@ -1,0 +1,8 @@
+{
+  "parent": "hldecorated:custom/logcraftingtable",
+  "textures": {
+    "all": "hldecorated:blocks/texture",
+    "particle": "hldecorated:blocks/texture",
+    "2": "hldecorated:blocks/texturelogcraftingtable"
+  }
+}
